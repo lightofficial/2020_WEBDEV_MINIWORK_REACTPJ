@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'fc_minimalbold';
+    src: url('fc_minimal_bold-webfont.woff2') format('woff2'),
+         url('fc_minimal_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fc_minimalregular';
+    src: url('fc_minimal_regular-webfont.woff2') format('woff2'),
+         url('fc_minimal_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+div , button , body{
+    font-family: 'fc_minimalregular', sans-serif;
+    font-size: 105%;
+  }
+
+h1 {
+    font-family: 'fc_minimalbold', sans-serif;
+    font-size: 100%;
+}
+
+li {
+    font-family: 'fc_minimalbold', sans-serif;
+    font-size: 100%;
+}
+
+code , container{
+    font-family: 'fc_minimalregular', sans-serif;
+    font-size: 100%;
+    color:darkblue;
+}
